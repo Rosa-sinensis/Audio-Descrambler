@@ -5,8 +5,7 @@ My 2nd Year Project.
 Build a digital real time audio descrambler, with a goal to decode a secret message. This project involved using MSP432 and building our own circuitry using the knowledge learnt throughout the study.
 
 ### How it Works?
-Firstly, a MATLAB program was provided. It works by recording audio signal for 5 seconds and will output the scrambled version of the signal.
-By utilising this program, it is possible to analyse how the scrambling is done in the first place. And after analysing has been done, the way the scrambler works is by flipping the frequency spectrum of audio signal at 3.5kHz and adding a 8kHz sine wave. 
+Firstly, a MATLAB program was provided to enable us identify how the scrambling is done in the first place. The scrambler program works by recording audio signal for 5 seconds and will output the scrambled version of the signal. By utilising this program and doing some analysis, the way the scrambler works is by flipping the frequency spectrum of audio signal at 3.5kHz and adding a 8kHz sine wave. 
 
 Hence, to decode the scrambled message, the signal need to be flip the frequency spectrum of audio signal back at 3.5kHz and deleting the 8kHz sine wave.
 The way to accomplish this is by:
