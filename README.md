@@ -15,7 +15,7 @@ The way to accomplish this is by:
    From trigonometry rule, this will produce a sinusoidal signal with an upper and lower frequency. The original signal is the lower frequency
 3) Build an analog low-pass filter to filter the unwanted upper sideband of the signal. This filter will also works as an anti-aliasing filter for DAC
 
-* All the operation (sample the audio input, perform digital filtering and produce an audio output) need to be done synchronously at the same sampling frequency of 50 kHz
+All the operation (sample the audio input, perform digital filtering and produce an audio output) need to be done synchronously at the same sampling frequency of 50 kHz
 
 ### Implementation
 The block diagram of elements involved in this project is shown below:
