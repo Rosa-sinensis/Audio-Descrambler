@@ -42,6 +42,3 @@ Microcontroller Programming (MSP432)
 -->
 
 ### Future Improvements
-
-## Subheader
-Track your changes
