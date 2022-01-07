@@ -1,4 +1,4 @@
-### Bias Circuit
+## Bias Circuit
 
 The schematic of bias circuit used is shown below:
 
