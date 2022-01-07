@@ -1,8 +1,9 @@
-# AudioDescrambler-project
+# Audio Descrambler Project
 My 2nd Year Project.
 
 ### Goal
 Build a digital real time audio descrambler, with a goal to decode a secret message. This project involved using MSP432 and building our own circuitry using the knowledge learnt throughout the study.
+
 
 ### How it Works?
 Firstly, a MATLAB program was provided to enable us identify how the scrambling is done in the first place. The scrambler program works by recording audio signal for 5 seconds and will output the scrambled version of the signal. By utilising this program and doing some analysis, the way the scrambler works is by flipping the frequency spectrum of audio signal at 3.5kHz and adding a 8kHz sine wave. 
@@ -16,11 +17,13 @@ The way to accomplish this is by:
 
 All the operation (sample the audio input, perform digital filtering and produce an audio output) need to be done synchronously at the same sampling frequency of 50 kHz
 
+
 ### Implementation
 The block diagram of elements involved in this project is shown below:
 
+<img width="1104" alt="Screenshot 2022-01-07 at 21 31 15" src="https://user-images.githubusercontent.com/82151839/148610072-f7b56395-1a73-4196-a9d9-01380b61749e.png">
 
-
+Each of the element in the block diagram (excluding the audio signal and speaker) is explained further in its own file 
 
 
 
@@ -41,4 +44,5 @@ Microcontroller Programming (MSP432)
 *Challenge: All this needs to be done synchronously 
 -->
 
-### Future Improvements
+### Future Improvements / Plan
+- Implement the audio amplifier using another types of amplifier such as Class AB and Class D amplifier
