@@ -1,3 +1,5 @@
+/* This code implements the ADC, digital filter and multiplication of 7kHz sine wave operation */
+
 /* DriverLib Includes */
 #include <ti/devices/msp432p4xx/driverlib/driverlib.h>
 
