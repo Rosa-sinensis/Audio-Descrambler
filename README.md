@@ -23,8 +23,10 @@ The block diagram of elements involved in this project is shown below:
 
 <img width="1104" alt="Screenshot 2022-01-07 at 21 31 15" src="https://user-images.githubusercontent.com/82151839/148610072-f7b56395-1a73-4196-a9d9-01380b61749e.png">
 
-Each of the element in the block diagram (excluding the audio signal and speaker) is explained further in its own file 
+Each of the element in the block diagram (excluding the audio signal and speaker) is explained further in its sepaate file.
+The full schematic of the audio descrambler is shown below:
 
+<img width="1172" alt="Screenshot 2022-01-07 at 22 28 05" src="https://user-images.githubusercontent.com/82151839/148615561-f03fe464-f8ab-4d97-b33f-7ea094018453.png">
 
 
 
