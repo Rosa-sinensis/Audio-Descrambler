@@ -48,3 +48,4 @@ Microcontroller Programming (MSP432)
 
 ### Future Improvements / Plan
 - Implement the audio amplifier using another types of amplifier such as Class AB and Class D amplifier
+- Implement the digital electronics section of the circuit using a DE0-Nano FPGA board
