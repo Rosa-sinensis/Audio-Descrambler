@@ -9,7 +9,7 @@ The reason we are using analog filter in this case instead of a passive filter i
 - Because op amp is used in building an active filter, in which its input impedance is always high and output impedance is always low, there is no need to worry about having a buffer to do impedance matching or impedance bridging.
 
 The analog lowpass filter above is designed using https://tools.analog.com/en/filterwizard/. 
-It is a 3rd order Chebyshev filter. 3rd order filter meaning it has a roll-off of -60dB/decade, meaning the signal will attenuate by 1000 times every time the frequency increases by 10.
+It is a 3rd order Chebyshev filter. 3rd order filter meaning it has a roll-off of -60dB/decade, meaning the signal will be attenuated by 10000 times every time the frequency increases by 10.
 Chebyshev filter means that the filter.
 
 From the schematic also, we can see that the circuit is implemented with two stages, in which the first stage is implemented as a simple buffered RC circuit,
