@@ -1,5 +1,6 @@
 ## Analog Filter - Lowpass Filter
 
+The purpose of building analog lowpass filter is to eliminate the unwanted upper sideband generated during the multiplication by 7kHz signal. Apart from that, the lowpass filter is also useful to act as an anti-aliasing filter following the DAC.
 The schematic of the analog lowpass filter implemented for this project is given below:
 <img width="800" alt="LowpassFilter" src="https://user-images.githubusercontent.com/82151839/148622012-575d0030-f56f-4c38-838f-b9f9081dc69f.png">
 
