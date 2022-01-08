@@ -2,7 +2,7 @@
 My 2nd Year Project, which is to construct a real time audio descrambler.
 
 ### Goal
-Build a digital real time audio descrambler, with a goal to decode a secret message. This project involved using MSP432 and building our own circuitry using the knowledge learnt throughout the study.
+Build a digital real time audio descrambler, with a goal to decode a secret message. This project involved using MSP432 and building our own circuitry using the knowledge learnt throughout the study and provide a great exposure to the basics of signal processing, both analog, and Digital Signal Processing (DSP).
 
 
 ### How it Works?
