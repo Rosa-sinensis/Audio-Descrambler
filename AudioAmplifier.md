@@ -20,7 +20,7 @@ On top of that, a simple class A amplifier using the ZTX450 NPN transistor as th
 It provides some amplification but the quality and loudness is of sound is not as good as using the LM386 module.
 Shown below is the schematic of audio amplifier using single ZTX450 NPN transistor.
 
-<img width="675" alt="SingleNPNAmplifier" src="https://user-images.githubusercontent.com/82151839/148703486-f1ad43d9-d308-4ded-a9ec-5e090d442c9c.png">
+<img width="637" alt="SingleNPNAmplifier" src="https://user-images.githubusercontent.com/82151839/148703674-a2131ca7-4c8c-4e94-8ab8-1aa2120221bd.png">
 
 To ramp up the amplification of ZTX450, I also cascaded two ZTX450 together using a Darlington pair. 
 However, there is not much difference between the amplification of single stage transistor and cascaded stage. 
